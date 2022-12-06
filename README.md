@@ -11,7 +11,7 @@ https://yaninatl.github.io/rsschool-cv/
 * GitHub: YaninaTL
 
 ## About Me
-Currently a multilingual English tutor who is going to change lives drastically being a great Webdev. 
+Currently a multilingual English/Russian tutor who is going to change lives drastically being a great webdev. 
 
 ## Skills
 - HTML
