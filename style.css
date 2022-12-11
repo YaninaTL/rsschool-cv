@@ -63,6 +63,69 @@ header {
   animation-fill-mode: forwards;
 }
 
+/* Toggle */
+.toggle {
+  display: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.bar:nth-child(1) {
+  top: 13px;
+}
+
+.bar:nth-child(3) {
+  top: 27px;
+}
+
+@media (max-width: 768px) {
+  .toggle {
+    display: block;
+  }
+  .toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .toggle.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .header_nav {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #ef959c;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav_item {
+    margin: 16px 0;
+  }
+
+  .header_nav.active {
+    left: 0;
+  }
+}
+
 @keyframes line {
   from {
     width: 0;
