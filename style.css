@@ -19,7 +19,7 @@ body {
 
 .container {
   max-width: 1440px;
-  padding: 0 20px;
+  padding: 0 40px;
   min-height: 50px;
 }
 
@@ -155,6 +155,8 @@ header {
   flex-wrap: wrap;
 
   padding: 50px 30px;
+
+  border-bottom: 10px solid #ef959c;
 }
 
 .img_box {
@@ -206,4 +208,48 @@ header {
 .title {
   font-weight: 300;
   font-size: 1.2rem;
+}
+
+.contacts_summary,
+.skills_code,
+.projects_courses,
+.education_languages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  /* SOLVE */
+  align-items: flex-start;
+  gap: 20px;
+
+  padding: 40px 20px;
+  border-bottom: 2px solid crimson;
+}
+
+.contacts,
+.summary,
+.skills,
+.code,
+.projects,
+.courses,
+.education,
+.languages {
+  flex: 1;
+}
+
+.contacts .section_list {
+  list-style: none;
+}
+
+.section_list a {
+  text-decoration: none;
+  color: #542d2d;
+}
+
+.title_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
 }
