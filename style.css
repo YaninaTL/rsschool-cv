@@ -172,3 +172,38 @@ header {
   height: auto;
   object-fit: cover;
 }
+
+.profile_info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+  margin: 15px 0;
+
+  gap: 30px;
+}
+
+.name {
+  position: relative;
+
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.name::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -70px;
+  width: 140px;
+  height: 2px;
+  background-color: crimson;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
