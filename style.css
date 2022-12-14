@@ -217,8 +217,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-evenly;
-  /* SOLVE */
+  justify-content: space-around;
+
   align-items: flex-start;
   gap: 20px;
 
@@ -235,9 +235,29 @@ header {
 .education,
 .languages {
   flex: 1;
+  width: 50%;
 }
 
 .contacts .section_list {
+  list-style: none;
+}
+
+.contacts .section_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  position: relative;
+  bottom: -3px;
+}
+
+.skills .section_list {
+  list-style: none;
+}
+
+.languages .section_list {
   list-style: none;
 }
 
