@@ -231,6 +231,18 @@ header {
   border-bottom: none;
 }
 
+.skills img,
+.code img,
+.education img,
+.languages img {
+  position: relative;
+  bottom: -3px;
+}
+
+span {
+  color: crimson;
+}
+
 .contacts,
 .summary,
 .skills,
@@ -276,7 +288,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  gap: 2px;
+  gap: 5px;
 }
 
 /* FOOTER */
