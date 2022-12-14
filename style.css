@@ -19,8 +19,9 @@ body {
 
 .container {
   max-width: 1440px;
-  padding: 0 20px;
+  padding: 0 40px;
   min-height: 50px;
+  margin: 0 auto;
 }
 
 header {
@@ -155,6 +156,8 @@ header {
   flex-wrap: wrap;
 
   padding: 50px 30px;
+
+  border-bottom: 10px solid #ef959c;
 }
 
 .img_box {
@@ -206,4 +209,105 @@ header {
 .title {
   font-weight: 300;
   font-size: 1.2rem;
+}
+
+.contacts_summary,
+.skills_code,
+.projects_courses,
+.education_languages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+
+  align-items: flex-start;
+  gap: 20px;
+
+  padding: 40px 20px;
+  border-bottom: 2px solid crimson;
+}
+
+.education_languages {
+  border-bottom: none;
+}
+
+.skills img,
+.code img,
+.education img,
+.languages img {
+  position: relative;
+  bottom: -3px;
+}
+
+span {
+  color: crimson;
+}
+
+.contacts,
+.summary,
+.skills,
+.code,
+.projects,
+.courses,
+.education,
+.languages {
+  flex: 1;
+  width: 50%;
+}
+
+.contacts .section_list {
+  list-style: none;
+}
+
+.contacts .section_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  position: relative;
+  bottom: -3px;
+}
+
+.skills .section_list {
+  list-style: none;
+}
+
+.languages .section_list {
+  list-style: none;
+}
+
+.section_list a {
+  text-decoration: none;
+  color: #542d2d;
+}
+
+.title_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #ef959c;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 20px 40px;
+
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
