@@ -21,6 +21,7 @@ body {
   max-width: 1440px;
   padding: 0 40px;
   min-height: 50px;
+  margin: 0 auto;
 }
 
 header {
@@ -226,6 +227,10 @@ header {
   border-bottom: 2px solid crimson;
 }
 
+.education_languages {
+  border-bottom: none;
+}
+
 .contacts,
 .summary,
 .skills,
@@ -272,4 +277,25 @@ header {
   align-items: center;
   text-align: center;
   gap: 2px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #ef959c;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 20px 40px;
+
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
 }
