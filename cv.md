@@ -12,7 +12,7 @@ https://yaninatl.github.io/rsschool-cv/
 
 ## About Me
 Currently a multilingual English/Russian tutor who is going to change lives drastically
-being a great webdev. 
+being a great webdev. </br>
 I have been surrounded by languages for many years. My path of
 learning, practising and teaching has been a long one. However,
 the thirst for new knowledge has opened up to me the fascinating
